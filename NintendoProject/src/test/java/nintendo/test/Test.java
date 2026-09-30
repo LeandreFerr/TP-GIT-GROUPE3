@@ -10,22 +10,23 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+	Adresse adresse = new Adresse(10, "rue des Fleurs", "Paris");
+		Boutique boutique = new Boutique("Nintendo Paris", adresse);
+		
 		Console console1 = new Console("Nintendo");
 		Console console2 = new Console("Playsation");
 		Console console3 = new Console("Xbox");
 		
 		
-		Jeu jeu1 = new Jeu("Zelda",console1);
-		Jeu jeu2 = new Jeu("Pokemon",console1);
-		Jeu jeu3 = new Jeu("Metroid",console1);
-		Jeu jeu4 = new Jeu("GodOfWar",console2);
-		Jeu jeu5 = new Jeu("Halo",console3);
+		Jeu jeu1 = new Jeu("Zelda",console1,boutique);
+		Jeu jeu2 = new Jeu("Pokemon",console1,boutique);
+		Jeu jeu3 = new Jeu("Metroid",console1,boutique);
+		Jeu jeu4 = new Jeu("GodOfWar",console2,boutique);
+		Jeu jeu5 = new Jeu("Halo",console3,boutique);
 		
 		
 		
-		Adresse adresse = new Adresse(10, "rue des Fleurs", "Paris");
-		Boutique boutique = new Boutique("Nintendo Paris", adresse);
+	
 		Client c1 = new Client("Doe", "John");
         Client c2 = new Client("Doe", "Jane");
 	}
