@@ -1,5 +1,7 @@
 package nintendo.test;
 
+import nintendo.model.Adresse;
+
 public class Test {
 
 	public static void main(String[] args) {
