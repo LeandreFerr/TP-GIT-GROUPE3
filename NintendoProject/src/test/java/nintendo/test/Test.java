@@ -21,6 +21,8 @@ public class Test {
 		Jeu jeu4 = new Jeu("GodOfWar",console2);
 		Jeu jeu5 = new Jeu("Halo",console3);
 		
+		
+		
 		Adresse adresse = new Adresse(10, "rue des Fleurs", "Paris");
 		Boutique boutique = new Boutique("Nintendo Paris", adresse);
 	}
