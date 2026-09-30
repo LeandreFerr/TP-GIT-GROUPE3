@@ -7,6 +7,8 @@ import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
+import nintendo.model.Portable;
+import nintendo.model.Salon;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -23,9 +25,9 @@ public class Test {
 	Adresse adresse = new Adresse(10, "rue des Fleurs", "Paris");
 		Boutique boutique = new Boutique("Nintendo Paris", adresse);
 		
-		Console console1 = new Console("Nintendo",469,LocalDate.of(2026, 9, 30));
-		Console console2 = new Console("Playsation",689,LocalDate.of(2026, 11, 3));
-		Console console3 = new Console("Xbox",569,LocalDate.of(2026, 6, 27));
+		Console console1 = new Portable("Nintendo",469,LocalDate.of(2026, 9, 30));
+		Console console2 = new Salon("Playsation",689,LocalDate.of(2026, 11, 3));
+		Console console3 = new Salon("Xbox",569,LocalDate.of(2026, 6, 27));
 		
 		
 		Jeu jeu1 = new Jeu("Zelda",console1,boutique);
